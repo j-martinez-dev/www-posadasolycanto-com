@@ -1,0 +1,38 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
+  <script src="{{"/assets/js/jquery-1.12.3.min.js" | prepend:site.baseurl }}"></script>
+  <script src="{{"/assets/js/jquery-ui-1.10.4.custom.min.js" | prepend:site.baseurl }}"></script>
+  <script src="{{"/assets/js/jquery.mmenu.min.all.js" | prepend:site.baseurl }}"></script>
+  <script src="{{"/assets/js/slick.js" | prepend:site.baseurl }}"></script>
+  <script src="{{"/assets/js/jquery.sticky-kit.min.js" | prepend:site.baseurl }}"></script>
+  <script src="{{"/assets/js/jquery.fitvids.js" | prepend:site.baseurl }}"></script>
+  <script src="{{"/assets/js/jquery.magnific-popup.js" | prepend:site.baseurl }}"></script>
+  <script src="{{"/assets/js/jquery.matchHeight.js" | prepend:site.baseurl }}"></script>
+  <script src="{{"/assets/js/scripts.js" | prepend:site.baseurl }}"></script>
+
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:700%7CKarla:400,400i,700" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="{{ "/assets/css/base.css " | prepend: site.baseurl }}">
+  <link rel="stylesheet" type="text/css" href="{{ "/assets/css/mmenu.css " | prepend: site.baseurl }}">
+  <link rel="stylesheet" type="text/css" href="{{ "/assets/css/font-awesome.css " | prepend: site.baseurl }}">
+  <link rel="stylesheet" type="text/css" href="{{ "/assets/css/slick.css " | prepend: site.baseurl }}">
+  <link rel="stylesheet" type="text/css" href="{{ "/assets/css/magnific.css " | prepend: site.baseurl }}">
+  <link rel="stylesheet" type="text/css" href="{{ "/assets/css/jquery-ui-1.10.4.datepicker.min.css
+    " | prepend: site.baseurl }}">
+  <link rel="stylesheet" type="text/css" href="{{ "/assets/css/style.css " | prepend: site.baseurl }}">
+
+  <link rel="shortcut icon" href="#">
+  <link rel="apple-touch-icon" href="#">
+  <link rel="apple-touch-icon" sizes="72x72" href="#">
+  <link rel="apple-touch-icon" sizes="114x114" href="#">
+
+
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ " /feed.xml
+    " | prepend: site.baseurl | prepend: site.url }}">
+</head>
