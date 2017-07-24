@@ -4,7 +4,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Chalets para 5,6,10 y 13 personas divinamente bien equipados. 
   Organiza la logística para paseos, excursiones y visitas a los parques temáticos.  
   Saloncito de juegos para adultos y una churuata grandísima para eventos. 
-baseurl: "/posada" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://posadasolycanto.com/" # the base hostname & protocol for your site
 
 # Build settings
