@@ -1,0 +1,174 @@
+// sass-lint:disable force-element-nesting, force-pseudo-nesting, no-empty-rulesets, no-mergeable-selectors, one-declaration-per-line
+/* -----------------------------------------
+	02. Main Navigation
+----------------------------------------- */
+.nav {
+	display: block;
+}
+
+.navigation-main {
+	@include clearfix;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	line-height: normal;
+	text-align: right;
+	font-family: $secondary-font;
+	font-weight: bold;
+
+	/* Functional Styles
+	=================================== */
+	li { position: relative; }
+	> li { display: inline-block; }
+	a { display: block; white-space: nowrap; }
+
+	ul {
+		text-align: left;
+		position: absolute;
+		z-index: 10;
+		visibility: hidden;
+		opacity: 0;
+		transition: transform .25s ease .2s, opacity .25s ease .2s, visibility 0s ease .35s;
+		transform: translate(0, 10px);
+	}
+
+	ul ul {
+		top: 0;
+		right: 100%;
+		transform: translate(-10px, 0);
+	}
+
+	> li {
+		&:last-child {
+			> ul {
+				right: 0;
+			}
+		}
+	}
+
+	li:hover {
+		> ul {
+			transition-delay: 0s, 0s, 0s;
+			visibility: visible;
+			opacity: 1;
+		}
+
+		ul {
+			z-index: 15;
+		}
+	}
+
+	> li:hover > ul {
+		transform: translate(0, 0);
+	}
+
+	li li:hover > ul {
+		transform: translate(0, 0);
+	}
+
+	// Development only
+	//> li:nth-child(4) {
+	//	ul { transform: translate(0, 0); visibility: visible !important; opacity: 1 !important; }
+	//	ul ul { transform: translate(0, 0); opacity: 1 !important; }
+	//}
+
+	/* Visual Styles
+	=================================== */
+	// Sub-menu containers
+	ul {
+		padding: 15px 0;
+		margin: 0;
+		list-style: none;
+		background-color: $white;
+		border: 1px solid rgba($border-color, .5);
+		border-bottom: 2px solid $border-color;
+		border-radius: 3px;
+		min-width: 200px;
+	}
+
+	// Global Menu Link Styles
+	a {
+		position: relative;
+		text-transform: uppercase;
+		color: $black;
+		font-size: 12px;
+		letter-spacing: -.05em;
+	}
+
+	// First Level Menu Links
+	// -----------------------------------
+
+	// Default Styles
+	> li > a {
+		padding: 10px 15px;
+
+		.header-overlay:not(.is_stuck) & {
+			color: $white;
+		}
+	}
+
+	// Active & Hover
+	> li:hover > a,
+	> li > a:focus,
+	> .current-menu-item > a,
+	> .current-menu-parent > a,
+	> .current-menu-ancestor > a {
+		color: $accent-color;
+	}
+
+	// Sub-Menu Links
+	// -----------------------------------
+
+	// Default Styles
+	li li a {
+		padding: 5px 15px;
+	}
+
+	// Active & Hover
+	li li:hover > a,
+	li li > a:focus,
+	li .current-menu-item > a,
+	li .current-menu-parent > a,
+	li .current-menu-ancestor > a {
+		color: $accent-color;
+	}
+
+	// Nav Buttons
+	// -----------------------------------
+	.nav-btn {
+		margin-left: 10px;
+		margin-right: 10px;
+
+		> a {
+			@include button;
+			@include button-sm;
+		}
+
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+
+	// Arrows
+	// -----------------------------------
+
+	// First Level (Facing Down)
+	.menu-item-has-children > a::after {
+		content: "\f078";
+		font-family: FontAwesome;
+		font-size: 8px;
+		position: relative;
+		top: -4px;
+		right: -3px;
+		line-height: normal;
+	}
+
+	// Sub-Menus (Facing Right)
+	li .menu-item-has-children > a::after {
+		content: "\f054";
+		position: absolute;
+		right: 10px;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+}

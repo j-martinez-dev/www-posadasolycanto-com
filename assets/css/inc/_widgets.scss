@@ -1,0 +1,269 @@
+/* -----------------------------------------
+	07. Widgets Styling
+----------------------------------------- */
+.widget {
+	margin: 0 0 60px;
+
+	/* Nullify bottom margin for last elements in widgets and sidebars */
+	.sidebar & {
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	p {
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	select {
+		width: 100%;
+		padding: 5px 10px;
+		border-radius: 0;
+		border: 1px solid $border-color;
+	}
+}
+
+.widget-title {
+	text-transform: uppercase;
+	font-size: 16px;
+	margin-bottom: 20px;
+
+	label {
+		text-transform: none;
+		display: block;
+		font-size: inherit;
+		margin: 0;
+		line-height: inherit;
+		font-weight: inherit;
+	}
+}
+
+/* Section Widgets
+========================================= */
+@include section-widgets;
+
+.widget-wrap {
+	background-position: top center;
+	background-size: cover;
+}
+
+.section-title {
+	text-align: center;
+	font-size: 48px;
+	margin-bottom: 40px;
+
+	+ .section-subtitle {
+		margin-top: -30px;
+	}
+}
+
+.section-subtitle {
+	font-size: 20px;
+	line-height: 1.2;
+	max-width: 650px;
+	margin: 0 auto 50px;
+	text-align: center;
+}
+
+/* SECTION: #Testimonial
+========================================= */
+.section-testimonial {
+	padding: 0;
+	margin: -30px auto 0;
+	border: 0;
+	text-align: center;
+	font-size: 20px;
+	line-height: 1.2;
+	max-width: 650px;
+
+	p {
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	cite {
+		font-family: $secondary-font;
+		font-size: 11px;
+		letter-spacing: .18em;
+		text-align: center;
+		text-transform: uppercase;
+		font-style: normal;
+		color: $black;
+
+		&::before {
+			content: "";
+			display: block;
+			width: 30px;
+			border-top: 1px solid $black;
+			margin: 25px auto;
+		}
+	}
+}
+
+/* SECTION: #Hero
+========================================= */
+.widget_ci-hero { // sass-lint:disable-line class-name-format
+	color: $white;
+	text-align: center;
+
+	.section-title {
+		color: inherit;
+	}
+}
+
+/* WIDGET: #List Widgets
+========================================= */
+// sass-lint:disable class-name-format
+.widget_meta,
+.widget_pages,
+.widget_categories,
+.widget_archive,
+.widget_nav_menu,
+.widget_recent_entries {
+	ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+
+		ul {
+			margin-left: 15px;
+		}
+	}
+
+	li {
+		line-height: normal;
+		display: block;
+		position: relative;
+
+		a {
+			display: block;
+			padding: 4px 0;
+			text-transform: uppercase;
+			font-size: 12px;
+			font-family: $secondary-font;
+			color: $black;
+		}
+
+		.count,
+		.ci-count {
+			margin-left: 5px;
+		}
+	}
+}
+
+.widget_recent_comments {
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+
+	li {
+		display: block;
+		padding: 11px 0;
+		border-bottom: 1px solid $border-color;
+	}
+}
+
+.widget_pages,
+.widget_categories,
+.widget_archive {
+	select {
+		@include select-style;
+	}
+}
+// sass-lint:enable class-name-format
+
+/* WIDGET: #Search
+========================================= */
+.searchform {
+	> div {
+		position: relative;
+	}
+
+	input[type="text"],
+	input[type="search"] {
+		// Styling for the search input if required
+	}
+
+	.searchsubmit {
+		position: absolute;
+		top: 0;
+		right: 0;
+		height: 100%;
+		border-radius: 1px;
+		padding: 0 20px;
+	}
+}
+
+/* WIDGET: #Text Widget
+========================================= */
+.widget_text { // sass-lint:disable-line class-name-format
+	p {
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+}
+
+/* WIDGET: #Calendar
+================================================== */
+#wp-calendar {
+	width: 100%;
+
+	a {
+		font-weight: bold;
+		font-style: italic;
+	}
+
+	caption {
+		text-align: left;
+		margin-top: 10px;
+		background: none repeat scroll 0 0 rgba($black, .03);
+		padding: 9px;
+	}
+
+	thead {
+		font-size: 10px;
+
+		th {
+			background: rgba($black, .1);
+			font-weight: bold;
+			padding: 8px;
+		}
+	}
+
+	tbody {
+		td {
+			background: none;
+			border: 1px solid rgba($black, .1);
+			text-align: center;
+			padding: 3px;
+
+			&:hover {
+				background: rgba($black, .1);
+			}
+		}
+
+		.pad {
+			background: none;
+		}
+	}
+
+	tfoot {
+		#next {
+			font-size: 10px;
+			text-transform: uppercase;
+			text-align: right;
+		}
+
+		#prev {
+			font-size: 10px;
+			text-transform: uppercase;
+			padding-top: 10px;
+		}
+	}
+}
