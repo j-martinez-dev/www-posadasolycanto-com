@@ -4,18 +4,26 @@ description: > # this means to ignore newlines until "baseurl:"
   Chalets para 5,6,10 y 13 personas divinamente bien equipados. 
   Organiza la logística para paseos, excursiones y visitas a los parques temáticos.  
   Saloncito de juegos para adultos y una churuata grandísima para eventos. 
-baseurl: "/posada2" # the subpath of your site, e.g. /blog
-url: "http://posadasolycanto.com/" # the base hostname & protocol for your site
-
-# Build settings
+baseurl: ""
+url: "http://posadasolycanto.com/"
 markdown: kramdown
-kramdown:
-  input: GFM
-
-# Third-party services
-# just leave someone empty to disable it
-# google_analytics: 
-disqus_shortname:
-
-# used this for post_excerpt at index_page
-excerpt_separator: <!--description-->
+plugins:
+   - jekyll-picture-tag
+picture:
+  source: "assets/images/_fullsize"
+  output: "generated"
+  markup: "picture"
+  presets:
+    default:
+      attr:
+        class: "gallery-pict"
+        itemprop: "image"
+      source_1280: 
+        width: "1280"
+        height: "1040"
+      source_1110: 
+        width: "1110"
+        height: "620"
+      source_default: 
+        width: "400"
+        height: "300"

@@ -9,21 +9,16 @@ title: Instalaciones
             <div class="col-xs-12">
                 <article class="entry">
                     <header class="entry-header">
-                        <h1 class="entry-title">
-                            Instalaciones
-                        </h1>
+                        <h1 class="entry-title">Instalaciones</h1>
                         <div class="entry-meta">
-                            <p>Con una capacidad total para 50 personas, las instalaciones se componen de 4 Cabañas y 2 Habitaciones
-                                grandes tipo Chalet.</p>
+                            <p>Con una capacidad total para 50 personas, las instalaciones se componen de 4 Cabañas y 2 Habitaciones grandes tipo Chalet.</p>
                         </div>
                     </header>
-
                     <figure class="entry-thumb">
                         <a href="https://placehold.it/1280x1024" class="ci-lightbox">
-										<img src="https://placehold.it/1110x620" alt="">
-									</a>
+                            {% picture source_1110 1.jpg %}
+						</a>
                     </figure>
-
                     <div class="entry-content">
                         <div class="row">
                             <div class="col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-xs-12">
@@ -31,43 +26,40 @@ title: Instalaciones
                                 <p>En nuestra posada podrá disfrutar de todas las áreas verdes y de la parrillera para compartir
                                     en familia. Además, si no desea cocinar y disfrutar de la comida típica local, estamos
                                     ubicados a menos de 2 minutos a pie de los famosos pastelitos merideños.</p>
-
                                 <h2>Vacaciones para todos</h2>
                                 <p>En nuestra posada sabemos que no siempre es fácil complacer a los niños durante las vacaciones.
                                     Por esa razón, hemos previsto varias distracciones para los pequeños: un salón de juegos,
                                     un pequeño parque infantil y una piscina.
                                 </p>
-
                                 <h2>Areas comunes: </h2>
                                 <p>Piscina, Churuata, Sala de Juegos, Parque infantil.</p>
-
                                 <div class="gallery gallery-columns-2 gallery-size-thumbnail">
                                     <figure class="gallery-item">
                                         <div class="gallery-icon">
                                             <a class="ci-lightbox" href="http://placehold.it/1280x1024">
-															<img src="http://placehold.it/400x300" alt="">
-														</a>
+                                                {% picture source_default 2.jpg %}
+                                            </a>
                                         </div>
                                     </figure>
                                     <figure class="gallery-item">
                                         <div class="gallery-icon">
                                             <a class="ci-lightbox" href="http://placehold.it/1280x1024">
-															<img src="http://placehold.it/400x300" alt="">
-														</a>
+                                                {% picture source_default 3.jpg %}
+                                            </a>
                                         </div>
                                     </figure>
                                     <figure class="gallery-item">
                                         <div class="gallery-icon">
                                             <a class="ci-lightbox" href="http://placehold.it/1280x1024">
-															<img src="http://placehold.it/400x300" alt="">
-														</a>
+                                                {% picture source_default 4.jpg %}
+                                            </a>
                                         </div>
                                     </figure>
                                     <figure class="gallery-item">
                                         <div class="gallery-icon">
                                             <a class="ci-lightbox" href="http://placehold.it/1280x1024">
-															<img src="http://placehold.it/400x300" alt="">
-														</a>
+                                                {% picture source_default 5.jpg %}
+                                            </a>
                                         </div>
                                     </figure>
                                 </div>
