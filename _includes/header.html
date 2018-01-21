@@ -11,46 +11,30 @@
           <ul class="navigation-main">
 
            <li {% if page.url=='/' %} class="current-menu-item" {% endif %}>
-              <a href="{{ "/" | prepend: site.baseurl }}">Home</a>
+              <a href="{% link index.md %}">Inicio</a>
             </li>
 
             <li {% if page.url=='/services.html' %} class="current-menu-item" {% endif %}>
-              <a href="{{ "/services.html" | prepend: site.baseurl }}">Servicios</a>
+              <a href="{% link services.md %}">Servicios</a>
             </li>
 
             <li {% if page.url=='/installations.html' %} class="current-menu-item" {% endif %}>
-              <a href="{{ "/installations.html" | prepend: site.baseurl }}">Instalaciones</a>
+              <a href="{% link installations.md %}">Instalaciones</a>
             </li>
 
             <li class="menu-item-has-children">
               <a href="#">Habitaciones</a>
               <ul class="sub-menu">
+{% for c in site.rooms %}
                 <li>
-                  <a href="blog.html">Chalet Grande</a>
+                  <a href="{{ c.url }}">{{ c.title }}</a>
                 </li>
-                <li>
-                  <a href="blog-sidebar.html">Chalecito</a>
-                </li>
-                <li>
-                  <a href="single.html">Chalet Vista Bella</a>
-                </li>
-                <li>
-                  <a href="single-sidebar.html">Chalet Sol y Luna</a>
-                </li>
-                <li>
-                  <a href="single-sidebar.html">Eclipse</a>
-                </li>
-                <li>
-                  <a href="single-sidebar.html">Estrella</a>
-                </li>
+{% endfor %}
               </ul>
             </li>
-
-            <li {% if page.url=='/contactus.html' %} class="current-menu-item" {% endif %}>
-              <a href="{{ "/contactus/" | prepend: site.baseurl }}">Contactanos</a>
+            <li {% if page.url=='/contact.html' %} class="current-menu-item" {% endif %}>
+              <a href="{% link contact.md %}">Contactanos</a>
             </li>
-
-
           </ul>
         </nav>
         <div id="mobilemenu"></div>

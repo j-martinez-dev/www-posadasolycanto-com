@@ -3,7 +3,7 @@ layout: default
 title: Home 
 ---
 
-<div class="page-jumbotron" style="background-image: url(assets/img/portada.jpg); background-size: cover;">
+<div class="page-jumbotron" style="background-image: url(images/home/1.jpg); background-size: cover;">
 </div>
 
 <main class="main widget-sections">
@@ -24,73 +24,20 @@ title: Home
         <div class="row">
           <div class="col-xs-12">
             <h3 class="section-title">CABAÑAS Y HABITACIONES TIPO CHALET</h3>
-            <p class="section-subtitle">Todas nuestras Cabañas y Habitaciones tipo Chalet están completamente equipadas y cuentan con estacionamiento
-              privado, servicio de camarera, televisión por cable y una sala de estar.</p>
+            <p class="section-subtitle">Todas nuestras Cabañas y Habitaciones tipo Chalet están completamente equipadas y cuentan con estacionamiento privado, servicio de camarera, televisión por cable y una sala de estar.</p>
             <div class="row row-items">
+{% for c in site.rooms %}
               <div class="col-lg-4 col-xs-6">
                 <div class="item">
                   <figure class="item-thumb">
-                    <a href="single-room.html">
+                    <a href="{{ c.url }}">
 														<img src="https://placehold.it/330x395" alt="">
-														<p class="item-title">item title</p>
+														<p class="item-title">{{ c.title }}</p>
 													</a>
                   </figure>
                 </div>
               </div>
-              <div class="col-lg-4 col-xs-6">
-                <div class="item">
-                  <figure class="item-thumb">
-                    <a href="single-room.html">
-														<img src="https://placehold.it/330x395" alt="">
-
-														<p class="item-title">item title</p>
-													</a>
-                  </figure>
-                </div>
-              </div>
-              <div class="col-lg-4 col-xs-6">
-                <div class="item">
-                  <figure class="item-thumb">
-                    <a href="single-room.html">
-														<img src="https://placehold.it/330x395" alt="">
-
-														<p class="item-title">item title</p>
-													</a>
-                  </figure>
-                </div>
-              </div>
-              <div class="col-lg-4 col-xs-6">
-                <div class="item">
-                  <figure class="item-thumb">
-                    <a href="single-room.html">
-														<img src="https://placehold.it/330x395" alt="">
-														<p class="item-title">item title</p>
-													</a>
-                  </figure>
-                </div>
-              </div>
-              <div class="col-lg-4 col-xs-6">
-                <div class="item">
-                  <figure class="item-thumb">
-                    <a href="single-room.html">
-														<img src="https://placehold.it/330x395" alt="">
-
-														<p class="item-title">item title</p>
-													</a>
-                  </figure>
-                </div>
-              </div>
-              <div class="col-lg-4 col-xs-6">
-                <div class="item">
-                  <figure class="item-thumb">
-                    <a href="single-room.html">
-														<img src="https://placehold.it/330x395" alt="">
-
-														<p class="item-title">item title</p>
-													</a>
-                  </figure>
-                </div>
-              </div>
+{% endfor %}
             </div>
           </div>
         </div>

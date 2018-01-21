@@ -28,3 +28,6 @@ kramdown:
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
+collections:
+  rooms:
+    output: true

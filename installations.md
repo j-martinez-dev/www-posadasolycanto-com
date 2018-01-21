@@ -15,8 +15,8 @@ title: Instalaciones
                         </div>
                     </header>
                     <figure class="entry-thumb">
-                        <a href="https://placehold.it/1280x1024" class="ci-lightbox">
-                            {% picture source_1110 1.jpg %}
+                        <a href="/images/installations/1-max.jpg" class="ci-lightbox">
+                            <img src="/images/installations/1-max.jpg"> 
 						</a>
                     </figure>
                     <div class="entry-content">
@@ -36,29 +36,29 @@ title: Instalaciones
                                 <div class="gallery gallery-columns-2 gallery-size-thumbnail">
                                     <figure class="gallery-item">
                                         <div class="gallery-icon">
-                                            <a class="ci-lightbox" href="http://placehold.it/1280x1024">
-                                                {% picture source_default 2.jpg %}
+                                            <a class="ci-lightbox" href="/images/installations/2-max.jpg">
+                                                <img src="/images/installations/2-min.jpg"> 
                                             </a>
                                         </div>
                                     </figure>
                                     <figure class="gallery-item">
                                         <div class="gallery-icon">
-                                            <a class="ci-lightbox" href="http://placehold.it/1280x1024">
-                                                {% picture source_default 3.jpg %}
+                                            <a class="ci-lightbox" href="/images/installations/3-max.jpg">
+                                                <img src="/images/installations/3-min.jpg"> 
                                             </a>
                                         </div>
                                     </figure>
                                     <figure class="gallery-item">
                                         <div class="gallery-icon">
-                                            <a class="ci-lightbox" href="http://placehold.it/1280x1024">
-                                                {% picture source_default 4.jpg %}
+                                            <a class="ci-lightbox" href="/images/installations/4-max.jpg">
+                                                <img src="/images/installations/4-min.jpg"> 
                                             </a>
                                         </div>
                                     </figure>
                                     <figure class="gallery-item">
                                         <div class="gallery-icon">
-                                            <a class="ci-lightbox" href="http://placehold.it/1280x1024">
-                                                {% picture source_default 5.jpg %}
+                                            <a class="ci-lightbox" href="/images/installations/5-max.jpg">
+                                                <img src="/images/installations/5-min.jpg">
                                             </a>
                                         </div>
                                     </figure>

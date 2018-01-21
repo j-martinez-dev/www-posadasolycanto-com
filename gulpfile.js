@@ -63,10 +63,8 @@ gulp.task('build:images', function () {
   return gulp.src(paths.appImageFilesGlob)
     .pipe(responsive(
       {
-        '**/imgs/*.jpg': [{ width: 1920 }],
-        '**/home/*.jpg': [{ width: 1920 }],
-        '**/catalogue/*.jpg': [{ width: 1228 }],
-        '**/services/*.jpg': [{ width: 2200 }, { width: 550, rename: { suffix: '-min' } }]
+        '**/installations/*.jpg': [{ width: 1024, rename: { suffix: '-max' }},{ width: 450, rename: { suffix: '-min' }}],
+        '**/home/*.jpg': [{ }, { width: 550, rename: { suffix: '-min' } }]
       },
       { quality: 70, withMetadata: false, errorOnUnusedImage: false, progressive: true }
     ))
