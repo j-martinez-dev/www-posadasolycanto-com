@@ -1,29 +1,30 @@
+url: "http://posadasolycanto.com/"
+baseurl: ''
 title: Posada Sol y Canto
-email: solycantoreservaciones@hotmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Chalets para 5,6,10 y 13 personas divinamente bien equipados. 
   Organiza la logística para paseos, excursiones y visitas a los parques temáticos.  
   Saloncito de juegos para adultos y una churuata grandísima para eventos. 
-baseurl: ""
-url: "http://posadasolycanto.com/"
-markdown: kramdown
+email: solycantoreservaciones@hotmail.com
+timezone: Europe/Paris
+keep_files: []
+exclude:
+  - _app
+  - Gemfile
+  - Gemfile.lock
+  - gulpfile.js
+  - node_modules
+  - CNAME
+  - template.zip
+  - package.json
+  - package-lock.json
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: 'lsquo,rsquo,ldquo,rdquo'
+  enable_coderay: false
 plugins:
-   - jekyll-picture-tag
-picture:
-  source: "assets/images/_fullsize"
-  output: "generated"
-  markup: "picture"
-  presets:
-    default:
-      attr:
-        class: "gallery-pict"
-        itemprop: "image"
-      source_1280: 
-        width: "1280"
-        height: "1040"
-      source_1110: 
-        width: "1110"
-        height: "620"
-      source_default: 
-        width: "400"
-        height: "300"
+  - jekyll-sitemap
+  - jekyll-seo-tag
