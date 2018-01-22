@@ -1,8 +1,8 @@
 ---
 layout: room
 title: Sol y Luna
-cover_photo : ''
-photos:
- - ''
- - ''
+folder : 'sol-y-luna'
+photos: 10
 ---
+
+3 cuartos ( capacidad para 13 personas )

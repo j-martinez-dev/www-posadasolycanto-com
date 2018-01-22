@@ -1,7 +1,8 @@
 ---
+layout: room
 title: Vista Bella
-cover_photo : ''
-photos:
- - ''
- - ''
+folder : 'vista-bella'
+photos: 3
 ---
+
+1 cuarto ( capacidad para 5 personas )

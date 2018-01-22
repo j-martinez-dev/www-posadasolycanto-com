@@ -1,8 +1,8 @@
 ---
 layout: room
 title: Estrella
-cover_photo : ''
-photos:
- - ''
- - ''
+folder : 'estrella'
+photos: 4
 ---
+
+1 cuarto ( capacidad para 6 personas )

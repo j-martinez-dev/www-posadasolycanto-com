@@ -1,8 +1,8 @@
 ---
 layout: room
 title: Chalecito
-cover_photo : ''
-photos:
- - ''
- - ''
+folder : 'chalecito'
+photos: 6
 ---
+
+2 cuartos ( capacidad para 6 personas )

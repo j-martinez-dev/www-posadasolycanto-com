@@ -1,8 +1,8 @@
 ---
 layout: room
 title: Eclipse
-cover_photo : ''
-photos:
- - ''
- - ''
+folder : 'eclipse'
+photos: 3
 ---
+
+1 cuarto ( capacidad para 5 personas )
