@@ -2,6 +2,7 @@
 layout: room
 title: Chalecito
 folder : 'chalecito'
+cover: 1
 photos: 6
 ---
 

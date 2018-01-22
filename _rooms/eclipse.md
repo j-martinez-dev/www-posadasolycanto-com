@@ -2,6 +2,7 @@
 layout: room
 title: Eclipse
 folder : 'eclipse'
+cover: 1
 photos: 3
 ---
 

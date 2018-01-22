@@ -63,9 +63,10 @@ gulp.task('build:images', function () {
   return gulp.src(paths.appImageFilesGlob)
     .pipe(responsive(
       {
+        '**/services/restaurant/*.jpg': [{ width: 1280, rename: { suffix: '-max' }},{ width: 400, rename: { suffix: '-min' }}],
         '**/rooms/**/*.jpg': [{ width: 1280, rename: { suffix: '-max' }},{ width: 330, rename: { suffix: '-min' }}],
         '**/installations/*.jpg': [{ width: 1024, rename: { suffix: '-max' }},{ width: 450, rename: { suffix: '-min' }}],
-        '**/home/*.jpg': [{ }, { width: 550, rename: { suffix: '-min' } }]
+        '**/home/*.jpg': [{ width: 1024, rename: { suffix: '-max' }},{ width: 330, rename: { suffix: '-min' }}]
       },
       { quality: 70, withMetadata: false, errorOnUnusedImage: false, progressive: true }
     ))

@@ -2,6 +2,7 @@
 layout: room
 title: Sol y Luna
 folder : 'sol-y-luna'
+cover: 4
 photos: 10
 ---
 

@@ -1,5 +1,5 @@
----
-layout: default
+--- 
+layout: default 
 title: Servicios 
 ---
 
@@ -17,31 +17,32 @@ title: Servicios
                                 grandes tipo Chalet.</p>
                         </div>
                     </header>
-
                     <figure class="entry-thumb">
                         <a href="https://placehold.it/1280x1024" class="ci-lightbox">
-										<img src="https://placehold.it/1110x620" alt="">
-									</a>
+                            <img src="https://placehold.it/1110x620" alt="">
+                        </a>
                     </figure>
-
                     <div class="entry-content">
                         <div class="row">
                             <div class="col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-xs-12">
                                 <h2>Restaurante</h2>
-                                <p>Piscina, Churuata, Restaurante, Sala de Juegos, Parque infantil.</p>
+                                <p>En nuestra posada podrá disfrutar de todas las áreas verdes y de la parrillera para compartir
+                                    en familia. Además, si no desea cocinar y quiere disfrutar de la comida típica local,
+                                    tenemos a su disposicion un rico restaurant y estamos ubicados a menos de 2 minutos a
+                                    pie de los famosos pastelitos merideños</p>
                                 <div class="gallery gallery-columns-2 gallery-size-thumbnail">
                                     <figure class="gallery-item">
                                         <div class="gallery-icon">
-                                            <a class="ci-lightbox" href="http://placehold.it/1280x1024">
-															<img src="http://placehold.it/400x300" alt="">
-														</a>
+                                            <a class="ci-lightbox" href="/images/services/restaurant/1-max.jpg">
+                                                <img src="/images/services/restaurant/1-min.jpg" alt="">
+                                            </a>
                                         </div>
                                     </figure>
                                     <figure class="gallery-item">
                                         <div class="gallery-icon">
-                                            <a class="ci-lightbox" href="http://placehold.it/1280x1024">
-															<img src="http://placehold.it/400x300" alt="">
-														</a>
+                                            <a class="ci-lightbox" href="/images/services/restaurant/2-max.jpg">
+                                                <img src="/images/services/restaurant/2-min.jpg" alt="">
+                                            </a>
                                         </div>
                                     </figure>
                                 </div>
@@ -54,19 +55,19 @@ title: Servicios
                                     <figure class="gallery-item">
                                         <div class="gallery-icon">
                                             <a class="ci-lightbox" href="http://placehold.it/1280x1024">
-															<img src="http://placehold.it/400x300" alt="">
-														</a>
+                                                <img src="http://placehold.it/400x300" alt="">
+                                            </a>
                                         </div>
                                     </figure>
                                     <figure class="gallery-item">
                                         <div class="gallery-icon">
                                             <a class="ci-lightbox" href="http://placehold.it/1280x1024">
-															<img src="http://placehold.it/400x300" alt="">
-														</a>
+                                                <img src="http://placehold.it/400x300" alt="">
+                                            </a>
                                         </div>
                                     </figure>
                                 </div>
-                                    
+
                                 <h2>Eventos</h2>
                                 <p>Además de nuestros servicios de hospedaje, también puede alquilar nuestras instalaciones
                                     para conferencias, bodas, fiestas de cumpleaños y bautizos.
@@ -76,15 +77,15 @@ title: Servicios
                                     <figure class="gallery-item">
                                         <div class="gallery-icon">
                                             <a class="ci-lightbox" href="http://placehold.it/1280x1024">
-															<img src="http://placehold.it/400x300" alt="">
-														</a>
+                                                <img src="http://placehold.it/400x300" alt="">
+                                            </a>
                                         </div>
                                     </figure>
                                     <figure class="gallery-item">
                                         <div class="gallery-icon">
                                             <a class="ci-lightbox" href="http://placehold.it/1280x1024">
-															<img src="http://placehold.it/400x300" alt="">
-														</a>
+                                                <img src="http://placehold.it/400x300" alt="">
+                                            </a>
                                         </div>
                                     </figure>
                                 </div>

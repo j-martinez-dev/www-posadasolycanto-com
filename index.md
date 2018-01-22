@@ -3,7 +3,7 @@ layout: default
 title: Home 
 ---
 
-<div class="page-jumbotron" style="background-image: url(images/home/1.jpg); background-size: cover;">
+<div class="page-jumbotron" style="background-image: url(images/home/1-max.jpg); background-size: cover;">
 </div>
 
 <main class="main widget-sections">
@@ -31,7 +31,7 @@ title: Home
                 <div class="item">
                   <figure class="item-thumb">
                     <a href="{{ c.url }}">
-														<img src="https://placehold.it/330x395" alt="">
+														<img src="images/rooms/{{ c.folder }}/{{ c.cover }}-min.jpg" alt="">
 														<p class="item-title">{{ c.title }}</p>
 													</a>
                   </figure>
@@ -46,7 +46,7 @@ title: Home
   </section>
 
   <section class="widget-section widget-padded widget_ci-hero">
-    <div class="widget-wrap" style="background-image: url(https://placehold.it/1920x600/054c61.png);">
+    <div class="widget-wrap" style="background-color: #054c61">
       <div class="container">
         <div class="row">
           <div class="col-xs-12">
@@ -65,60 +65,17 @@ title: Home
         <div class="row">
           <div class="col-xs-12">
             <div class="row row-items">
-              <div class="col-lg-4 col-xs-6">
-                <div class="item">
-                  <figure class="item-thumb">
-                    <a href="https://placehold.it/1280x1024" class="ci-lightbox">
-														<img src="https://placehold.it/330x250" alt="">
-													</a>
-                  </figure>
-                </div>
-              </div>
-              <div class="col-lg-4 col-xs-6">
-                <div class="item">
-                  <figure class="item-thumb">
-                    <a href="https://placehold.it/1280x1024" class="ci-lightbox">
-														<img src="https://placehold.it/330x250" alt="">
-													</a>
-                  </figure>
-                </div>
-              </div>
-              <div class="col-lg-4 col-xs-6">
-                <div class="item">
-                  <figure class="item-thumb">
-                    <a href="https://placehold.it/1280x1024" class="ci-lightbox">
-														<img src="https://placehold.it/330x250" alt="">
-													</a>
-                  </figure>
-                </div>
-              </div>
-              <div class="col-lg-4 col-xs-6">
-                <div class="item">
-                  <figure class="item-thumb">
-                    <a href="https://placehold.it/1280x1024" class="ci-lightbox">
-														<img src="https://placehold.it/330x250" alt="">
-													</a>
-                  </figure>
-                </div>
-              </div>
-              <div class="col-lg-4 col-xs-6">
-                <div class="item">
-                  <figure class="item-thumb">
-                    <a href="https://placehold.it/1280x1024" class="ci-lightbox">
-														<img src="https://placehold.it/330x250" alt="">
-													</a>
-                  </figure>
-                </div>
-              </div>
-              <div class="col-lg-4 col-xs-6">
-                <div class="item">
-                  <figure class="item-thumb">
-                    <a href="https://placehold.it/1280x1024" class="ci-lightbox">
-														<img src="https://placehold.it/330x250" alt="">
-													</a>
-                  </figure>
-                </div>
-              </div>
+                    {% for index in (2..6) %}
+                        <div class="col-lg-4 col-xs-6">
+                            <div class="item">
+                                <figure class="item-thumb">
+                                    <a href="/images/home/{{ index }}-max.jpg" class="ci-lightbox">
+                                        <img src="/images/home/{{ index }}-min.jpg" alt="">
+                                    </a>
+                                </figure>
+                            </div>
+                        </div>    
+                    {% endfor %}
             </div>
           </div>
         </div>

@@ -2,6 +2,7 @@
 layout: room
 title: Vista Bella
 folder : 'vista-bella'
+cover: 1
 photos: 3
 ---
 

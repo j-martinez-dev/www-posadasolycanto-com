@@ -2,6 +2,7 @@
 layout: room
 title: Estrella
 folder : 'estrella'
+cover: 3
 photos: 4
 ---
 
