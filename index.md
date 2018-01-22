@@ -1,29 +1,55 @@
 --- 
 layout: default 
-title: Home 
+title: Inicio 
 ---
+<div class="page-slideshow" data-animation="fade" data-autoplay="true" data-autoplayspeed="3000" data-speed="550">
+	<div class="slick-slide">
+	  <div class="page-jumbotron" style="background-image: url(images/home/1-max.jpg); background-size: cover;">
+			  <div class="container">
+					<div class="row">
+						<div class="col-xs-12">
+							<h2 class="jumbo-title">Your Island.</h2>
+								<p class="jumbo-subtitle">Milos or Melos is a volcanic Greek island in the Aegean Sea, just north of the Sea of Crete. Milos is the southwesternmost island in the Cyclades group.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 
-<div class="page-jumbotron" style="background-image: url(images/home/1-max.jpg); background-size: cover;">
-</div>
+				<div class="slick-slide">
+					<div class="page-jumbotron" style="background-image: url(https://placehold.it/1920x920/054c61.png); background-size: cover;">
+						<div class="container">
+							<div class="row">
+								<div class="col-xs-12">
+									<h2 class="jumbo-title">Enjoy Your Stay.</h2>
+									<p class="jumbo-subtitle">Milos or Melos is a volcanic Greek island in the Aegean Sea, just north of the Sea of Crete. Milos is the southwesternmost island in the Cyclades group.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 
+				<div class="slick-slide">
+					<div class="page-jumbotron" style="background-image: url(images/home/1-max.jpg); background-size: cover;">
+						<div class="container">
+							<div class="row">
+								<div class="col-xs-12">
+									<h2 class="jumbo-title">Our Rooms.</h2>
+									<p class="jumbo-subtitle">Milos or Melos is a volcanic Greek island in the Aegean Sea, just north of the Sea of Crete. Milos is the southwesternmost island in the Cyclades group.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 <main class="main widget-sections">
-  <section class="widget-section">
-    <div class="widget-wrap">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12">
-            <h3 class="section-title">Ubicada en una zona turística por excelencia</h3>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
   <section class="widget-section widget-padded widget_ci-items">
     <div class="widget-wrap" style="background-color: #f9f9f9;">
       <div class="container">
         <div class="row">
           <div class="col-xs-12">
             <h3 class="section-title">CABAÑAS Y HABITACIONES TIPO CHALET</h3>
+            <p class="section-subtitle">Ubicada en una zona turística por excelencia.</p>
             <p class="section-subtitle">Todas nuestras Cabañas y Habitaciones tipo Chalet están completamente equipadas y cuentan con estacionamiento privado, servicio de camarera, televisión por cable y una sala de estar.</p>
             <div class="row row-items">
 {% for c in site.rooms %}

@@ -72,19 +72,18 @@ title: Servicios
                                 <p>Además de nuestros servicios de hospedaje, también puede alquilar nuestras instalaciones
                                     para conferencias, bodas, fiestas de cumpleaños y bautizos.
                                 </p>
-
                                 <div class="gallery gallery-columns-2 gallery-size-thumbnail">
                                     <figure class="gallery-item">
                                         <div class="gallery-icon">
-                                            <a class="ci-lightbox" href="http://placehold.it/1280x1024">
-                                                <img src="http://placehold.it/400x300" alt="">
+                                            <a class="ci-lightbox" href="/images/services/events/1-max.jpg">
+                                                <img src="/images/services/events/1-min.jpg" alt="">
                                             </a>
                                         </div>
                                     </figure>
                                     <figure class="gallery-item">
                                         <div class="gallery-icon">
-                                            <a class="ci-lightbox" href="http://placehold.it/1280x1024">
-                                                <img src="http://placehold.it/400x300" alt="">
+                                            <a class="ci-lightbox" href="/images/services/events/2-max.jpg">
+                                                <img src="/images/services/events/2-min.jpg" alt="">
                                             </a>
                                         </div>
                                     </figure>
