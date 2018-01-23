@@ -5,43 +5,13 @@ title: Inicio
 <div class="page-slideshow" data-animation="fade" data-autoplay="true" data-autoplayspeed="3000" data-speed="550">
 	<div class="slick-slide">
 	  <div class="page-jumbotron" style="background-image: url(images/home/1-max.jpg); background-size: cover;">
-			  <div class="container">
-					<div class="row">
-						<div class="col-xs-12">
-							<h2 class="jumbo-title">Your Island.</h2>
-								<p class="jumbo-subtitle">Milos or Melos is a volcanic Greek island in the Aegean Sea, just north of the Sea of Crete. Milos is the southwesternmost island in the Cyclades group.</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="slick-slide">
-					<div class="page-jumbotron" style="background-image: url(https://placehold.it/1920x920/054c61.png); background-size: cover;">
-						<div class="container">
-							<div class="row">
-								<div class="col-xs-12">
-									<h2 class="jumbo-title">Enjoy Your Stay.</h2>
-									<p class="jumbo-subtitle">Milos or Melos is a volcanic Greek island in the Aegean Sea, just north of the Sea of Crete. Milos is the southwesternmost island in the Cyclades group.</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="slick-slide">
-					<div class="page-jumbotron" style="background-image: url(images/home/1-max.jpg); background-size: cover;">
-						<div class="container">
-							<div class="row">
-								<div class="col-xs-12">
-									<h2 class="jumbo-title">Our Rooms.</h2>
-									<p class="jumbo-subtitle">Milos or Melos is a volcanic Greek island in the Aegean Sea, just north of the Sea of Crete. Milos is the southwesternmost island in the Cyclades group.</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+		</div>
+	</div>
+	<div class="slick-slide">
+	  <div class="page-jumbotron" style="background-image: url(images/home/2-max.jpg); background-size: cover;">
+		</div>
+	</div>
+</div>
 <main class="main widget-sections">
   <section class="widget-section widget-padded widget_ci-items">
     <div class="widget-wrap" style="background-color: #f9f9f9;">
@@ -91,7 +61,7 @@ title: Inicio
         <div class="row">
           <div class="col-xs-12">
             <div class="row row-items">
-                    {% for index in (2..6) %}
+                    {% for index in (3..7) %}
                         <div class="col-lg-4 col-xs-6">
                             <div class="item">
                                 <figure class="item-thumb">

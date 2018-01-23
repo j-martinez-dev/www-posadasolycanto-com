@@ -46,28 +46,25 @@ title: Servicios
                                         </div>
                                     </figure>
                                 </div>
-
                                 <h2>Lugares de interés turístico (Excursiones)</h2>
                                 <p>A menos de 10 minutos de la posada, se encuentran muchas de las principales atracciones merideñas:
                                     El Páramo la Culata, La Truchicultura, el parque Eco Wild y el sueño de los abuelos.</p>
-
                                 <div class="gallery gallery-columns-2 gallery-size-thumbnail">
                                     <figure class="gallery-item">
                                         <div class="gallery-icon">
-                                            <a class="ci-lightbox" href="http://placehold.it/1280x1024">
-                                                <img src="http://placehold.it/400x300" alt="">
+                                            <a class="ci-lightbox" href="/images/services/excursions/1-max.jpg">
+                                                <img src="/images/services/excursions/1-min.jpg" alt="">
                                             </a>
                                         </div>
                                     </figure>
                                     <figure class="gallery-item">
                                         <div class="gallery-icon">
-                                            <a class="ci-lightbox" href="http://placehold.it/1280x1024">
-                                                <img src="http://placehold.it/400x300" alt="">
+                                            <a class="ci-lightbox" href="/images/services/excursions/2-max.jpg">
+                                                <img src="/images/services/excursions/2-min.jpg" alt="">
                                             </a>
                                         </div>
                                     </figure>
                                 </div>
-
                                 <h2>Eventos</h2>
                                 <p>Además de nuestros servicios de hospedaje, también puede alquilar nuestras instalaciones
                                     para conferencias, bodas, fiestas de cumpleaños y bautizos.
