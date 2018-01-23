@@ -3,20 +3,13 @@
 		<section>
 			<div id="form-wrapper" class="group">
 				<div id="respond" class="comment-respond">
-					<h3>Leave a Reply
-						<small>
-							<a rel="nofollow" id="cancel-comment-reply-link" href="#">Cancel reply</a>
-						</small>
-					</h3>
-					<form action="/" method="post" id="commentform" class="comment-form" novalidate="">
-						<p class="comment-notes">Your email address will not be published. Required fields are marked
-							<span class="required">*</span>
-						</p>
+					<h3>Contáctanos</h3>
+					<form action="https://formspree.io/solycantoreservaciones@hotmail.com" method="POST" id="commentform" class="comment-form">
 						<p class="comment-form-author">
-							<label for="author" class="sr-only">Name
+							<label for="author" class="sr-only">Nombre
 								<span class="required">*</span>
 							</label>
-							<input id="author" name="author" type="text" size="30" aria-required="true" placeholder="Name">
+							<input id="author" name="name" type="text" size="30" aria-required="true" placeholder="Nombre">
 						</p>
 						<p class="comment-form-email">
 							<label for="email" class="sr-only">Email
@@ -24,21 +17,12 @@
 							</label>
 							<input id="email" name="email" type="email" size="30" aria-required="true" placeholder="Email">
 						</p>
-						<p class="comment-form-url">
-							<label for="url" class="sr-only">Website</label>
-							<input id="url" name="url" type="url" size="30" placeholder="Website">
-						</p>
 						<p class="comment-form-comment">
-							<label for="comment" class="sr-only">Comment</label>
-							<textarea id="comment" name="comment" cols="45" rows="8" aria-required="true" placeholder="Comment"></textarea>
-						</p>
-						<p class="form-allowed-tags">
-							You may use these
-							<abbr title="HyperText Markup Language">HTML</abbr> tags and attributes:
-							<code>&lt;a href="" title=""&gt; &lt;abbr title=""&gt; &lt;acronym title=""&gt; &lt;b&gt; &lt;blockquote cite=""&gt; &lt;cite&gt; &lt;code&gt; &lt;del datetime=""&gt; &lt;em&gt; &lt;i&gt; &lt;q cite=""&gt; &lt;strike&gt; &lt;strong&gt; </code>
+							<label for="mensaje" class="sr-only">Comment</label>
+							<textarea id="mensaje" name="mensaje" cols="45" rows="8" aria-required="true" placeholder="Mensaje"></textarea>
 						</p>
 						<p class="form-submit">
-							<input name="submit" type="submit" id="submit" value="Post Comment">
+							<input name="submit" type="submit" id="submit" value="Enviar">
 						</p>
 					</form>
 				</div>
