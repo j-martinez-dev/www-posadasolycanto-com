@@ -18,8 +18,8 @@ title: Servicios
                         </div>
                     </header>
                     <figure class="entry-thumb">
-                        <a href="https://placehold.it/1280x1024" class="ci-lightbox">
-                            <img src="https://placehold.it/1110x620" alt="">
+                        <a href="images/home/2-max.jpg" class="ci-lightbox">
+                            <img src="images/home/2-max.jpg" alt="">
                         </a>
                     </figure>
                     <div class="entry-content">
