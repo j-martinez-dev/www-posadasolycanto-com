@@ -48,7 +48,7 @@ title: Servicios
                                 </div>
                                 <h2>Lugares de interés turístico (Excursiones)</h2>
                                 <p>A menos de 10 minutos de la posada, se encuentran muchas de las principales atracciones merideñas:
-                                    El Páramo la Culata, La Truchicultura, el parque Eco Wild y el sueño de los abuelos.</p>
+                                    El Páramo la Culata, La Truchicultura, el parque Eco Wild y el sueño de los abuelos. Ademas estamos ubicados a solo 15 minutos del teleferico de Mérida y del centro de la ciudad.</p>
                                 <div class="gallery gallery-columns-2 gallery-size-thumbnail">
                                     <figure class="gallery-item">
                                         <div class="gallery-icon">
