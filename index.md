@@ -2,7 +2,7 @@
 layout: default 
 title: Inicio 
 ---
-<div class="page-slideshow" data-animation="fade" data-autoplay="true" data-autoplayspeed="3000" data-speed="550">
+<div class="page-slideshow" data-animation="fade" data-autoplay="true" data-autoplayspeed="2000" data-speed="550">
 	<div class="slick-slide">
 	  <div class="page-jumbotron" style="background-image: url(images/home/1-max.jpg); background-size: cover;">
 		</div>
