@@ -9,8 +9,7 @@
       <div class="col-lg-8 col-xs-4">
         <nav class="nav">
           <ul class="navigation-main">
-
-           <li {% if page.url=='/' %} class="current-menu-item" {% endif %}>
+            <li {% if page.url=='/' %} class="current-menu-item" {% endif %}>
               <a href="{% link index.md %}">Inicio</a>
             </li>
 
@@ -25,11 +24,11 @@
             <li class="menu-item-has-children">
               <a href="#">Habitaciones</a>
               <ul class="sub-menu">
-{% for c in site.rooms %}
+                {% for c in site.rooms %}
                 <li>
                   <a href="{{ c.url }}">{{ c.title }}</a>
                 </li>
-{% endfor %}
+                {% endfor %}
               </ul>
             </li>
             <li {% if page.url=='/contact.html' %} class="current-menu-item" {% endif %}>
@@ -39,8 +38,8 @@
         </nav>
         <div id="mobilemenu"></div>
         <a href="#mobilemenu" class="mobile-nav-trigger">
-								<i class="fa fa-navicon"></i> Menu
-							</a>
+          <i class="fa fa-navicon"></i> Menu
+        </a>
       </div>
     </div>
 </header>

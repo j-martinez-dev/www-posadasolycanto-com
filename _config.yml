@@ -1,12 +1,20 @@
 url: "http://posadasolycanto.com/"
 baseurl: ''
+google_site_verification: U8Yd3QLDJNWgLlro5kuUvnlWdUb1m-y1iBmFE9KzQ6c
 title: Posada Sol y Canto
-description: > # this means to ignore newlines until "baseurl:"
+author: Posada Sol y Canto
+description: > 
   Chalets para 5,6,10 y 13 personas divinamente bien equipados. 
   Organiza la logística para paseos, excursiones y visitas a los parques temáticos.  
   Saloncito de juegos para adultos y una churuata grandísima para eventos. 
 email: solycantoreservaciones@hotmail.com
 timezone: Europe/Paris
+lang: es_ES
+social:
+  name: Posada Sol y Canto
+  links:
+    - https://www.facebook.com/solycantoposada/
+    - https://www.instagram.com/posadasolycanto/
 keep_files: []
 exclude:
   - _app

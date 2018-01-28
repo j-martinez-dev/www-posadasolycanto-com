@@ -1,51 +1,20 @@
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-	<!-- Author -->
-	{% if page.author %}
-	<meta name="author" content="{{ page.author }}"> {% endif %}
-
-	<!-- Viewport -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<!-- Keywords -->
-	{% if page.tags and page.tags.size > 0 %}
-	<meta name="keywords" content="{{ page.tags | join:', ' }}"> {% endif %}
-
-	<!-- Title -->
-	{% if page.title %}
-	<title>{{ page.title }}</title>
-	{% else %}
-	<title>{{ site.title }}</title>
-	{% endif %}
-
-	<!-- Description -->
-	<meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-
-	<!-- Canonical -->
-	{% if page.canonical == nil %}
-	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" /> 
-	{% else %}
-	<link rel="canonical" href="{{ page.canonical }}" /> 
-	{% endif %}
-
-
 	<!-- Main stylesheet -->
+	<link rel="stylesheet" type="text/css" href="{{ '/main.css' | prepend: site.baseurl }}">
 	<link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="https://fonts.googleapis.com/css?family=Philosopher">
-	<link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="https://fonts.googleapis.com/css?family=Montserrat:700%7CKarla:400,400i,700" >
-	<link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="{{ '/main.css' | prepend: site.baseurl }}">
+	<link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="https://fonts.googleapis.com/css?family=Montserrat:700%7CKarla:400,400i,700">
 
 	<noscript>
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Philosopher">
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:700%7CKarla:400,400i,700" >
-		<link rel="stylesheet" type="text/css" href="{{ '/main.css' | prepend: site.baseurl }}">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:700%7CKarla:400,400i,700">
 	</noscript>
 
 	<!-- Main javascript -->
-	<script async type="text/javascript" src="{{ '/main.js' | prepend: site.baseurl }}"></script> 
-
-	{% if site.development != true %}
+	<script async type="text/javascript" src="{{ '/main.js' | prepend: site.baseurl }}"></script> {% if site.development != true %}
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112983792-1"></script>
 	<script>
@@ -53,8 +22,6 @@
 		function gtag() { dataLayer.push(arguments); }
 		gtag('js', new Date());
 		gtag('config', 'UA-112983792-1');
-	</script> 
-	{% endif %} 
-	
+	</script> {% endif %} 
 	{% seo %}
 </head>
