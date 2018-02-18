@@ -9270,6 +9270,16 @@ button.mfp-close:hover {
   background-color: rgba(249,249,249,.9);
 }
 
+.header-text {
+  display: block;
+}
+
+@media screen and (min-width:768px) {
+  .header-text {
+    display: inline;
+  }
+}
+
 .header-overlay:not(.is_stuck) {
   position: absolute;
   top: 0;
