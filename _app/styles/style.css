@@ -1431,7 +1431,7 @@ button.mfp-close:hover, button.mfp-arrow:hover {
 .footer .list-social-icons::after {
 	content: "";
 	display: block;
-	border-bottom: 1px solid #232323;
+	border-bottom: 1px solid #ffffff;
 	width: 40px;
 	margin: 20px auto 40px;
 }
@@ -1439,7 +1439,7 @@ button.mfp-close:hover, button.mfp-arrow:hover {
 .social-icon {
 	display: inline-block;
 	font-size: 11px;
-	color: #232323;
+	color: #ffffff;
 	text-transform: uppercase;
 }
 
@@ -1461,9 +1461,11 @@ button.mfp-close:hover, button.mfp-arrow:hover {
 	05. Footer
 ----------------------------------------- */
 .footer {
-	text-align: center;
-	padding: 100px 0;
+	background-color: #054C63;
 	border-top: 1px solid #ebebeb;
+	color:#f9f9f9;
+	text-align: center;
+	padding: 50px 0;
 }
 
 .brand-footer {
