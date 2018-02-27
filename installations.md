@@ -6,7 +6,7 @@ title: Instalaciones
 <main class="main">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12">
+            <div class="col-xs-10 offset-xs-1">
                 <article class="entry">
                     <header class="entry-header">
                         <h1 class="entry-title">Instalaciones</h1>

@@ -14,7 +14,7 @@ title: Inicio
 </div>
 <main class="main widget-sections">
   <section class="widget-section widget-padded widget_ci-items">
-    <div class="widget-wrap" style="background-color: #f9f9f9;">
+    <div class="widget-wrap">
       <div class="container">
         <div class="row">
           <div class="col-xs-12">
