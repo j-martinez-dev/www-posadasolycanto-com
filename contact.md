@@ -4,7 +4,7 @@
 			<div id="form-wrapper" class="group">
 				<div id="respond" class="comment-respond">
 					<h3>Contáctanos</h3>
-					<form action="https://formspree.io/solycantoreservaciones@hotmail.com" method="POST" id="commentform" class="comment-form">
+					<form action="https://formspree.io/mbjeqlep" method="POST" id="commentform" class="comment-form">
 						<p class="comment-form-author">
 							<label for="author" class="sr-only">Nombre
 								<span class="required">*</span>
